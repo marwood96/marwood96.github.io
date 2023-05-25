@@ -1,0 +1,446 @@
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-image: url("C:/Users/RyanM/Desktop/Project Assessment/Images/Background1.jpg");
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    margin-top: -16px;
+    overflow: hidden;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    left: 26%;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#logo {
+    float: left;
+    padding-right: 50px;
+    overflow: hidden;
+    border:0 none;
+}
+
+
+#logoclick {
+    all: unset;
+}
+
+#logoclick:hover {
+    cursor: pointer;
+}
+
+.menu {
+    height: 200px;
+}
+
+.menu > ul {
+    display: inline-block;
+    position: relative;
+    font-family: Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.menu > li {
+    display: table-cell;
+    position: relative;
+    list-style-type: none;
+    color: white;
+    font-size: 40px;
+    padding: 0px 100px 0px 0px;
+    top: 30px;
+    font-family: Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.topmenubutton {
+    border: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: "CostaText-Bold";
+}
+
+.topmenubutton:hover {
+    cursor: pointer;
+}
+
+
+#HomePage {
+    display: block;
+    overflow: hidden;
+}
+
+#banner {
+    margin-top: -50px;
+    height: 530px;
+    background-image: url("C:/Users/RyanM/Desktop/Project Assessment/Images/CartoonSky.jpg");
+    background-size: cover;
+    
+}
+
+#bannertext1 {
+    position: relative;
+    width: 600px;
+    top: 200px;
+    left: 37%;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(6, 6, 247, 0.50);
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+#BackgroundHome {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(74, 224, 112);
+    margin-bottom: 100px;
+}
+
+#backgroundhome1 {
+    display: flex;
+    align-items: flex-end;
+    width: 35%;
+    position: relative;
+    left: 100px;
+}
+
+#backgroundhome2 {
+    position: relative;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, sans-serif;
+    overflow: hidden;
+    text-align: center;
+}
+ 
+#learnmorebutton {
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-size: 18px;
+    background-color: rgb(74, 101, 224);
+    color: rgb(255, 255, 255);
+    border-style: none;
+}
+
+#learnmorebutton:hover {
+    background-color: rgb(71, 103, 245);
+}
+
+
+#learnmorebutton1 {
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-size: 18px;
+    background: rgb(74, 101, 224);
+    color: white;
+    border-style: none;
+}
+
+#learnmorebutton1:hover {
+    background-color: rgb(71, 103, 245);
+}
+
+
+h1 {
+    font-family: Verdana, sans-serif;
+}
+
+h3 {
+    font-family: Verdana, sans-serif;
+}
+
+#HomeHeading {
+    position: relative;
+    left: 37%;
+    margin-top: -30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+#HomeBoxes {
+    position: relative;
+    left: 23%;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.HB1 {
+    height: 600px;
+    width: 340px;
+    background-color: rgb(74, 224, 112);
+    margin-right: 30px;
+    float: left;
+    border: 3px;
+    border-style: solid;
+    border-color: blue;
+}
+
+#productcontent {
+    display: table-cell;
+    position: relative;
+    top: -30px;
+}
+
+.HB2 {
+    height: 600px;
+    width: 340px;
+    background-color: rgb(74, 224, 112);
+    margin-right: 30px;
+    float: left;
+    border: 3px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.HB3 {
+    height: 600px;
+    width: 340px;
+    background-color: rgb(74, 224, 112);
+    margin: auto;
+    float: left;
+    border: 3px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.HB4 {
+    height: 600px;
+    width: 340px;
+    background-color: rgb(74, 224, 112);
+    margin: auto;
+    margin-left: 30px;
+    float: left;
+    border: 3px;
+    border-style: solid;
+    border-color: blue;
+}
+
+#HomeBoxes1 {
+    position: relative;
+    left: 12%;
+    overflow: hidden;
+    margin-bottom: 150px;
+}
+
+.commitments {
+    height: 600px;
+    width: 340px;
+    margin-right: 30px;
+    float: left;
+    background-color: rgb(74, 224, 112);
+}
+
+.commitments2 {
+    height: 600px;
+    width: 340px;
+    margin-right: 30px;
+    float: left;
+    background-color:  rgb(74, 224, 112);
+}
+    
+
+#MentalHealthPage {
+    display: none;
+}
+
+
+#AdvicePage {
+    display: none;
+    background-repeat: repeat;
+}
+
+body#SustainabilityPage {
+    background-image: none;
+}
+
+
+#banner2 {
+    margin-top: -50px;
+    height: 530px;
+    width: 100%;
+    background-image: url("C:/Users/RyanM/Desktop/Project Assessment/Images/Sun.jpg");
+    background-size: cover;
+    
+}
+
+#banner3 {
+    margin-top: -50px;
+    height: 530px;
+    width: 100%;
+    background-image: url("C:/Users/RyanM/Desktop/Project Assessment/Images/ExerciseBanner.jpg");
+    background-size: cover;
+    
+}
+
+#container1 {
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    display: grid;
+    padding-left: 40px;
+    position: relative;
+    right: 20px;
+}
+
+#container2 {
+    display: none;
+    
+}
+
+#container3 {
+    display: none;
+    width: 70%;
+    margin: auto;
+}
+
+#container4 {
+    position: relative;
+    width: 1300px;
+    margin: auto;
+    display: table-row;
+    left: 25%;
+}
+
+#container7{
+    position: relative;
+    left: 310px;
+    margin: auto;
+    display: table-row;
+}
+
+#container8 {
+    background-color: white;
+    margin: auto;
+    width: 65%;
+    display: grid;
+    margin-top: 170px;
+}
+
+
+.box {
+    display: inline-table;
+    background-color: white;
+    font-size: 18px;
+    padding: 30px 30px 30px 30px;
+    
+    
+}
+
+
+
+.box2 {
+    display: grid;
+    background-color: white;
+    margin: auto;
+    width: 70%;
+}
+
+.box3 {
+    position: relative;
+    top: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+
+#ExercisePage {
+    display: none;
+}
+
+
+#banner6 {
+    margin-top: -50px;
+    height: 530px;
+    width: 100%;
+    background-image: url("C:/Users/RyanM/Desktop/Project Assessment/Images/Advice.jpg");
+    background-size: cover;
+}
+
+
+
+footer {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+h6 {
+    font-size: 18px;
+}
+
+
+
+#footerlower {
+    width: 100%;
+    background-color: rgb(60, 196, 94);
+    padding: 22px 0px 18px 0px;
+
+}
+
+.lowerfooterlists > li {
+    position: relative;
+    left: 15%;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footerbuttons {
+    all: unset;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 1981px) {
+
+#HomeBoxes {
+    position: relative;
+    left: 720px;
+    }
+
+#navbar {
+    position: relative;
+    left: 230px;
+}
+
+#container7 {
+    position: relative;
+    left: 600px;
+}
+
+#content2 {
+    position: relative;
+    left: 290px;
+}
+
+
+#HomeBoxes1 {
+    position: relative;
+    left: 530px;  
+}
